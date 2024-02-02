@@ -64,7 +64,7 @@ const items = [
   {
     id: 8,
     title: "Vetir Feedback",
-    link: "https://house-market-place-dusky.vercel.app",
+    link: "https://feedback-app-orpin.vercel.app",
     img: "/img/feedback.png",
     desc: "A simple feedback and review demo project showing the basic features of react and applying CRUD in single page applications",
   },
