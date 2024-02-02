@@ -37,7 +37,7 @@ const Services = () => {
       <motion.div className="textContainer" variants={variants}>
         <p>
           I focus on helping your brand grow
-          <br /> and move forward
+          <br /> through web development
         </p>
         <hr />
       </motion.div>
@@ -45,14 +45,15 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
+            Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>Explore the web with Emmy</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,12 +61,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Front-End Development- Sculpting User Experiences</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Description: Elevating designs into immersive user experiences
+            through responsive layouts, captivating animations, and cutting-edge
+            technologies. Proficient in HTML, CSS, Javascript, React and Vue.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +73,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Back-End Mastery: Architecting Digital Solutions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Description: Building robust and scalable back-end solutions, from
+            efficient databases to powerful server-side logic, turning ideas
+            into digital realities. Proficient in Node.js, Python, Java.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +85,10 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Problem Solver Extraordinaire</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Description: A tenacious problem solver adept at debugging,
+            optimizing code for efficiency, and streamlining workflows.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +96,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Full-Stack Alchemist: Blending Art and Science</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Description: Orchestrating full-stack development from concept to
+            deployment, seamlessly integrating front-end finesse with back-end
+            wizardry. Also proficient in git and deployment integration.
           </p>
           <button>Go</button>
         </motion.div>

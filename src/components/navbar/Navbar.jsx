@@ -1,5 +1,6 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
+import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -13,20 +14,17 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Lama Dev
+          Emmy Tech
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/emmy-okalla/">
+          <FaLinkedin size={24} />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a href="https://github.com/emytek/">
+          <FaGithub size={24}  />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+          <a href="https://web.facebook.com/emmy.okalla.7">
+          <FaFacebook size={24} />
           </a>
         </div>
       </div>
